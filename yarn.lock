@@ -4772,6 +4772,10 @@ terser@^3.8.1:
     source-map "~0.6.1"
     source-map-support "~0.5.6"
 
+three-collada-loader-ds@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/three-collada-loader-ds/-/three-collada-loader-ds-0.0.1.tgz#81ab4582311c24eaca57907b5a68fb06e9e5106e"
+
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"

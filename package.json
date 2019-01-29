@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "three-collada-loader-ds": "^0.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",

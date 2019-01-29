@@ -21,7 +21,7 @@ module.exports = {
                 use: [
                     'style-loader',
                     'css-loader',
-                    'sass-loader'
+                    'sass-loader',
                 ]
             }, {
                 test: /\.(png|jp(e*)g|svg)$/,  
@@ -29,10 +29,15 @@ module.exports = {
                     loader: 'url-loader',
                     options: { 
                         limit: 8000, // Convert images < 8kb to base64 strings
-                        name: 'images/[hash]-[name].[ext]'
+                        name: 'images/[hash]-[name].[ext]',
                     } 
                 }]
-            }
+            }, {
+                test: /\.dae$/,
+                use: {
+                    loader: 'three-collada-loader-ds',
+                }
+            },
         ]
     },
     plugins: [
